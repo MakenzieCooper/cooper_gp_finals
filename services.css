@@ -1,0 +1,43 @@
+@font-face {
+    font-family: 'Montserrat';
+    src: url('Fonts/Montserrat-Regular.ttf') format('truetype');
+}
+
+body {
+    margin: 0;
+    font-family: 'Montserrat', sans-serif;
+    background-color: #e6f2e6;
+    color: #004d00;
+}
+
+header {
+    background-color: #004d00;
+    color: white;
+    padding: 1rem;
+    text-align: center;
+}
+
+.container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 1rem;
+    padding: 2rem;
+}
+
+.card {
+    background-color: white;
+    border: 1px solid #cce5cc;
+    border-radius: 8px;
+    padding: 1rem;
+    text-align: center;
+}
+
+.card img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 5px;
+}
+
+.card h5 {
+    margin: 0.5rem 0;
+}

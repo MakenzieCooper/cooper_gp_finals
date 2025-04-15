@@ -1,0 +1,30 @@
+@font-face {
+    font-family: 'Montserrat';
+    src: url('Fonts/Montserrat-Regular.ttf') format('truetype');
+}
+
+body {
+    margin: 0;
+    font-family: 'Montserrat', sans-serif;
+    background-color: #e6f2e6;
+    color: #004d00;
+}
+
+header {
+    background-color: #004d00;
+    color: white;
+    padding: 1rem;
+    text-align: center;
+}
+
+main {
+    max-width: 800px;
+    margin: auto;
+    line-height: 1.6;
+}
+
+blockquote {
+    border-left: 4px solid #004d00;
+    padding-left: 1rem;
+    margin-bottom: 2rem;
+} 
